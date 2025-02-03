@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "simple-whisper-tts"
+version = "0.1.0"
+description = ""
+authors = ["grtw2116 <15563588+grtw2116@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.51.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
